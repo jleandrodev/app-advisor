@@ -1,0 +1,12 @@
+.bg-purple-variant {
+    background-color: #9b70f5;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.scale-effect {
+    transition: 300ms;
+}
+.scale-effect:hover {
+    transform: scale(1.02);
+}

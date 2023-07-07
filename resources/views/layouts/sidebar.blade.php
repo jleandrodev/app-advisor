@@ -40,7 +40,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('home') }}" class="nav-link">
+                    <a href="" class="nav-link">
                         <i class="nav-icon fas fa-user-alt"></i>
                         <p>
                             Clientes
@@ -63,7 +63,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('home') }}" class="nav-link">
+                    <a href="" class="nav-link">
                         <i class="nav-icon fas fa-glass-cheers"></i>
                         <p>
                             Eventos
@@ -72,13 +72,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="{{ route('home') }}" class="nav-link">
+                            <a href="{{ route('events.create') }}" class="nav-link">
                                 <i class="fas fa-file nav-icon"></i>
                                 <p>Novo Evento</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('home') }}" class="nav-link">
+                            <a href="{{ route('events.index') }}" class="nav-link">
                                 <i class="fas fa-list-alt nav-icon"></i>
                                 <p>Lista de Eventos</p>
                             </a>
@@ -87,7 +87,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ route('home') }}" class="nav-link">
+                    <a href="" class="nav-link">
                         <i class="nav-icon fas fa-users"></i>
                         <p>
                             Equipe
@@ -96,22 +96,28 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="{{ route('home') }}" class="nav-link">
+                            <a href="" class="nav-link">
                                 <i class="fas fa-user-plus nav-icon"></i>
                                 <p>Novo Membro</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('home') }}" class="nav-link">
+                            <a href="" class="nav-link">
                                 <i class="fas fa-list-alt nav-icon"></i>
                                 <p>Toda a Equipe</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                <i class="fas fa-book-reader nav-icon"></i>
+                                <p>Manual Operacional</p>
                             </a>
                         </li>
                     </ul>
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ route('home') }}" class="nav-link">
+                    <a href="" class="nav-link">
                         <i class="nav-icon fas fa-money-check-alt"></i>
                         <p>
                             Financeiro
