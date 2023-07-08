@@ -96,24 +96,24 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="" class="nav-link">
+                            <a href="{{ route('employees.create') }}" class="nav-link">
                                 <i class="fas fa-user-plus nav-icon"></i>
                                 <p>Novo Membro</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">
+                            <a href="{{ route('employees.index') }}" class="nav-link">
                                 <i class="fas fa-list-alt nav-icon"></i>
                                 <p>Toda a Equipe</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">
-                                <i class="fas fa-book-reader nav-icon"></i>
-                                <p>Manual Operacional</p>
-                            </a>
-                        </li>
                     </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <i class="fas fa-book-reader nav-icon"></i>
+                        <p>Manual Operacional</p>
+                    </a>
                 </li>
 
                 <li class="nav-item">

@@ -23,3 +23,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::resource('customers', 'CustomerController');
 
 Route::resource('events', 'EventController');
+
+Route::resource('employees', 'EmployeeController');
