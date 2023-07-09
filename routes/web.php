@@ -18,6 +18,10 @@ Route::get('/', 'Auth\LoginController@showLoginForm');
 
 Auth::routes();
 
+Route::get('/operational', function () {
+    return view('layouts.operational.index');
+})->name('operational');
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::resource('customers', 'CustomerController');

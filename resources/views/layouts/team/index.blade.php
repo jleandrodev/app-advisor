@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    <h1>Equipe</h1>
+    <h1>Listagem da Equipe</h1>
 @endsection
 
 @section('breadcrumb')

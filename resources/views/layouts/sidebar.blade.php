@@ -110,7 +110,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="{{ route('operational') }}" class="nav-link">
                         <i class="fas fa-book-reader nav-icon"></i>
                         <p>Manual Operacional</p>
                     </a>
@@ -140,8 +140,6 @@
                     </ul>
                 </li>
             </ul>
-
-
         </nav>
         <!-- /.sidebar-menu -->
     </div>

@@ -61,7 +61,7 @@
 
         <footer class="main-footer">
             <div class="float-right d-none d-sm-block">
-                <strong>Web Advisor v0.1.0</strong>
+                <strong>Web Advisor v0.2.0</strong>
             </div>
             <strong>Copyright &copy; 2023</strong> All rights
             reserved.
