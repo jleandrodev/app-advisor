@@ -28,6 +28,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.38.0/css/tempusdominus-bootstrap-4.min.css"
         crossorigin="anonymous" />
 
+    @yield('head')
+
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">

@@ -48,30 +48,32 @@
 
 @foreach ($events as $event)
     <div class="col-md-4 cursor-pointer scale-effect">
-        <div class="card card-widget widget-user">
-            <div class="widget-user-header bg-purple-variant text-white">
-                <h3 class="widget-user-username">{{ $event['name'] }}</h3>
-                <h5 class="widget-user-desc">{{ $event['date'] }}</h5>
-            </div>
-            <div class="widget-user-image">
-                <img class="img-circle elevation-2" src="{{ asset($event['picture']) }}" alt="User Avatar">
-            </div>
-            <div class="card-footer">
-                <div class="row">
-                    <div class="col-sm-6 border-right">
-                        <div class="description-block">
-                            <h5 class="description-header">{{ $event['guests'] }}</h5>
-                            <span class="description-text">Convidados</span>
+        <a href="{{ route('events.show', '1') }}" class="text-decoration-none">
+            <div class="card card-widget widget-user">
+                <div class="widget-user-header bg-purple-variant text-white">
+                    <h3 class="widget-user-username">{{ $event['name'] }}</h3>
+                    <h5 class="widget-user-desc">{{ $event['date'] }}</h5>
+                </div>
+                <div class="widget-user-image">
+                    <img class="img-circle elevation-2" src="{{ asset($event['picture']) }}" alt="User Avatar">
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-sm-6 border-right">
+                            <div class="description-block">
+                                <h5 class="description-header">{{ $event['guests'] }}</h5>
+                                <span class="description-text">Convidados</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="description-block">
-                            <h5 class="description-header">{{ $event['tasks'] }}</h5>
-                            <span class="description-text">Atividades</span>
+                        <div class="col-sm-6">
+                            <div class="description-block">
+                                <h5 class="description-header">{{ $event['tasks'] }}</h5>
+                                <span class="description-text">Atividades</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </a>
     </div>
 @endforeach

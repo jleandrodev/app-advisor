@@ -1,28 +1,28 @@
 @php
     $event = [
-        'id' => 1,
-        'name' => 'John $ Mary',
+        'id' => '1',
+        'name' => 'Matheus & Maria',
     ];
 @endphp
 @extends('layouts.app')
 
 @section('title')
-    <h1>Visualização de Evento</h1>
+    <h1>Detalhes do Evento {{ $event['name'] }}</h1>
 @endsection
 @section('breadcrumb')
     <li class="breadcrumb-item">
         <a class="text-decoration-none" href="{{ route('home') }}">Dashboard</a>
     </li>
     <li class="breadcrumb-item">
-        <a class="text-decoration-none" href="{{ route('events.index') }}">Clientes</a>
+        <a class="text-decoration-none" href="{{ route('events.index') }}">Eventos</a>
     </li>
     <li class="breadcrumb-item">
-        <a class="text-decoration-none" href="{{ route('events.show', $event) }}/">{{ $event->name }}</a>
+        <a class="text-decoration-none" href="{{ route('events.show', $event['id']) }}">{{ $event['name'] }}</a>
     </li>
 @endsection
 
 @section('content')
     <div class="container-fluid">
-
+        @include('layouts.events.nav-cards')
     </div>
 @endsection
