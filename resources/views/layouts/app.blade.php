@@ -21,6 +21,14 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/adminlte.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.38.0/js/tempusdominus-bootstrap-4.min.js"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.38.0/css/tempusdominus-bootstrap-4.min.css"
+        crossorigin="anonymous" />
+
+    @yield('head')
 
 </head>
 
@@ -55,7 +63,7 @@
 
         <footer class="main-footer">
             <div class="float-right d-none d-sm-block">
-                <b>Sistema Administrativo</b>
+                <strong>Web Advisor v0.2.0</strong>
             </div>
             <strong>Copyright &copy; 2023</strong> All rights
             reserved.

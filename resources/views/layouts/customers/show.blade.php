@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    <h1>Visualização de Cliente</h1>
+    <h1>Visualização de Evento</h1>
 @endsection
 @section('breadcrumb')
     <li class="breadcrumb-item">
@@ -11,7 +11,7 @@
         <a class="text-decoration-none" href="{{ route('customers.index') }}">Clientes</a>
     </li>
     <li class="breadcrumb-item">
-        <a class="text-decoration-none" href="{{ route('customers.show', $customer) }}/">{{ $customer->name }}</a>
+        <a class="text-decoration-none" href="{{ route('events.show', $customer) }}/">{{ $customer->name }}</a>
     </li>
 @endsection
 
