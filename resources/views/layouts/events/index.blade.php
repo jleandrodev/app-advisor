@@ -5,15 +5,10 @@
 @endsection
 
 @section('head')
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.7.1/css/buttons.dataTables.min.css">
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap5.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/1.7.1/js/dataTables.buttons.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/1.7.1/js/buttons.bootstrap5.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/1.7.1/js/buttons.html5.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/1.7.1/js/buttons.print.min.js"></script>
+    <!-- DataTables -->
+    <link rel="stylesheet" href="{{ asset('adminLTE/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('adminLTE/plugins/datatables-responsive/css/responsive.bootstrap4.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('adminLTE/plugins/datatables-buttons/css/buttons.bootstrap4.min.css') }}">
 @endsection
 
 @section('breadcrumb')
@@ -37,10 +32,16 @@
         </div>
     </div>
 
+    <!-- jQuery -->
+    <script src="{{ asset('adminLTE/plugins/jquery/jquery.min.js') }}"></script>
+    <!-- Bootstrap 4 -->
+
+    <!-- Page specific script -->
+
+
     <script>
         $(document).ready(function() {
-            $('#myTable').DataTable({
-                dom: 'Bfrtip',
+            $('#example1').DataTable({
                 buttons: [{
                         extend: 'copy',
                         text: 'Copy',

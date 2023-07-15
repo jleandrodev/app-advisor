@@ -1,9 +1,3 @@
-@php
-    $event = [
-        'id' => '1',
-        'name' => 'Matheus & Maria',
-    ];
-@endphp
 @extends('layouts.app')
 
 @section('title')

@@ -18,6 +18,8 @@
 
 @section('content')
     <div class="container-fluid">
-        @include('layouts.events.form')
+        <form action="{{ route('events.store') }}" method="POST">
+            @include('layouts.events.form')
+        </form>
     </div>
 @endsection

@@ -25,8 +25,8 @@
                 <div class="accordion" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                            <button class="accordion-button collapsed font-weight-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseOne">
                                 Assessora
                             </button>
@@ -34,19 +34,16 @@
                         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
                             aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the
-                                collapse plugin adds the appropriate classes that we use to style each element. These
-                                classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default variables.
-                                It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                <strong>Organização prévia do evento, realização de reuniões, contato direto com noivos e
+                                    fornecedores durante todo o processo. Responsável principal pelo cerimonial, com foco
+                                    nos noivos durante o evento.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            <button class="accordion-button collapsed font-weight-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseTwo">
                                 Primeira Assistente
                             </button>
@@ -54,52 +51,51 @@
                         <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                             aria-labelledby="panelsStayOpen-headingTwo">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element. These
-                                classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default variables.
-                                It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                Essa assistente prestará suporte a assessora principal no que for necessário, no
+                                trato com a noiva e com o noivo do começo ao fim do evento, bem como conferência de
+                                check-list dos itens essenciais de assessoria, dos itens que foram alugados pelos noivos
+                                e estarão sob responsabilidade da assessoria (alianças, cestinhas, plaquinhas, bebidas,
+                                bem-casados etc). Fotos e vídeos. E, ficará como suporte para as demais assistentes.
+                                Obs: ficará até o final do evento junto com a assessora principal.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseThree">
-                                Assistente
+                            <button class="accordion-button collapsed font-weight-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Assistente cerimonial
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                             aria-labelledby="panelsStayOpen-headingThree">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                                collapse plugin adds the appropriate classes that we use to style each element. These
-                                classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default variables.
-                                It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                responsável pelos protocolos cerimoniais, cuidar e orientar os padrinhos em todos os passos
+                                do evento, até a finalização das fotos protocolares. Obs: a assistente cerimonial tem grande
+                                responsabilidade no cortejo e protocolos da recepção, porém, pode ser dispensada após o
+                                jantar.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseFour">
-                                Suporte
+                            <button class="accordion-button collapsed font-weight-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                Assistente técnica
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
                             aria-labelledby="panelsStayOpen-headingFour">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                                collapse plugin adds the appropriate classes that we use to style each element. These
-                                classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default variables.
-                                It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                Responsável por conferir as músicas da cerimônia, dar suporte na frente de altar durante o
+                                cortejo inicial e cumprimentos. Responsável por conferir serviço do buffet (horário de
+                                soltar frios, soltar jantar), serviço do Dj na recepção. Recolher e etiquetar presentes
+                                Responsável pelos pertences dos noivos, doces dos noivos, bem-casados, véu, sapatos etc.
+                                Entrega de lembrancinhas. Responsável por deixar tudo isso organizado e registrado através
+                                do relatório no drive do casal, contendo quantidade de volumes de presentes, pertences etc.
+                                Obs: essa profissional estará dispensada após 1h do início do baile.
                             </div>
                         </div>
                     </div>
